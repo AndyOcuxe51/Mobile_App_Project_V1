@@ -44,7 +44,7 @@ class SubmoduleFragment : Fragment()  {
             view?.findNavController()?.navigate(R.id.slidesHome)
         }
         binding.lab.setOnClickListener {
-            view?.findNavController()?.navigate(R.id.learningModules)
+//            view?.findNavController()?.navigate(R.id.learningModules)
             /*val i = Intent(Intent.ACTION_VIEW, Uri.parse(labLinks[MainActivity.submoduleNumber]))
             startActivity(i)*/
         }
