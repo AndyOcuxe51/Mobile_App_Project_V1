@@ -43,4 +43,17 @@
     <string name="kotlin_lab_11">kotlin_lab_11</string>
     <string name="kotlin_lab_12">kotlin_lab_12</string>
     <string name="kotlin_lab_13">kotlin_lab_13</string>
+    <string name="lecture1">Lecture 1</string>
+    <string name="lecture8">Lecture 8</string>
+    <string name="lectureslide11">Lecture Slide 11</string>
+    <string name="lectureslide5">Lecture Slide 5</string>
+    <string name="lectureslide4">Lecture Slide 4</string>
+    <string name="lectureslide9">Lecture Slide 9</string>
+    <string name="lectureslide7">Lecture Slide 7</string>
+    <string name="lectureslide6">Lecture Slide 6</string>
+    <string name="lectureslide10">Lecture Slide 10</string>
+    <string name="lectureslide13">Lecture Slide 13</string>
+    <string name="lectureslide3">Lecture Slide 3</string>
+    <string name="lectureslide12">Lecture Slide 12</string>
+    <string name="lectureslide2">Lecture Slide 2</string>
 </resources>

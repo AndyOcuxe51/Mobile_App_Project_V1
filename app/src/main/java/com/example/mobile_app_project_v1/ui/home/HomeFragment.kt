@@ -38,7 +38,7 @@ class HomeFragment : Fragment() {
         }
         binding.LearningModules.setOnClickListener { view : View ->
 //            view.findNavController().navigate(R.id.action_nav_home_to_nav_slideshow)
-            view.findNavController().navigate(R.id.action_nav_home_to_learning_modules)
+            view.findNavController().navigate(R.id.submodule)
         }
 //
 //        setHasOptionsMenu(true)

@@ -41,11 +41,12 @@ class SubmoduleFragment : Fragment()  {
         val root: View = binding.root
 
         binding.slide.setOnClickListener {
-            //TODO open slide base on the chosed submodule
+            view?.findNavController()?.navigate(R.id.slidesHome)
         }
         binding.lab.setOnClickListener {
-            val i = Intent(Intent.ACTION_VIEW, Uri.parse(labLinks[MainActivity.submoduleNumber]))
-            startActivity(i)
+            view?.findNavController()?.navigate(R.id.learningModules)
+            /*val i = Intent(Intent.ACTION_VIEW, Uri.parse(labLinks[MainActivity.submoduleNumber]))
+            startActivity(i)*/
         }
 
         return root

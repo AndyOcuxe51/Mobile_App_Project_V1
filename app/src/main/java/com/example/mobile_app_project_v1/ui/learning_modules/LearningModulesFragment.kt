@@ -1,5 +1,7 @@
 package com.example.mobile_app_project_v1.ui.learning_modules
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -20,6 +22,7 @@ class LearningModulesFragment : Fragment()   {
     // onDestroyView.
     private val binding get() = _binding!!
 
+    val labLinks = Array(13){i -> "https://developer.android.com/courses/pathways/android-development-with-kotlin-".plus(i.toString())}
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -33,58 +36,64 @@ class LearningModulesFragment : Fragment()   {
         _binding = FragmentLearningModulesBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
+        /*binding.lab.setOnClickListener {
+            view?.findNavController()?.navigate(R.id.learningModules)
+            val i = Intent(Intent.ACTION_VIEW, Uri.parse(labLinks[MainActivity.submoduleNumber]))
+            startActivity(i)
+        }*/
+
 
         binding.l1.setOnClickListener() {view : View ->
             MainActivity.submoduleNumber = 1
-            view.findNavController().navigate(R.id.action_nav_learning_modules_to_submodule)
+            //view.findNavController().navigate(R.id.action_nav_learning_modules_to_submodule)
         }
         binding.l2.setOnClickListener() {view : View ->
             MainActivity.submoduleNumber = 2
-            view.findNavController().navigate(R.id.action_nav_learning_modules_to_submodule)
+            //view.findNavController().navigate(R.id.action_nav_learning_modules_to_submodule)
         }
         binding.l3.setOnClickListener() {view : View ->
             MainActivity.submoduleNumber = 3
-            view.findNavController().navigate(R.id.action_nav_learning_modules_to_submodule)
+            //view.findNavController().navigate(R.id.action_nav_learning_modules_to_submodule)
         }
         binding.l4.setOnClickListener() {view : View ->
             MainActivity.submoduleNumber = 4
-            view.findNavController().navigate(R.id.action_nav_learning_modules_to_submodule)
+            //view.findNavController().navigate(R.id.action_nav_learning_modules_to_submodule)
         }
         binding.l5.setOnClickListener() {view : View ->
             MainActivity.submoduleNumber = 5
-            view.findNavController().navigate(R.id.action_nav_learning_modules_to_submodule)
+            //view.findNavController().navigate(R.id.action_nav_learning_modules_to_submodule)
         }
         binding.l6.setOnClickListener() {view : View ->
             MainActivity.submoduleNumber = 6
-            view.findNavController().navigate(R.id.action_nav_learning_modules_to_submodule)
+            //view.findNavController().navigate(R.id.action_nav_learning_modules_to_submodule)
         }
         binding.l7.setOnClickListener() {view : View ->
             MainActivity.submoduleNumber = 7
-            view.findNavController().navigate(R.id.action_nav_learning_modules_to_submodule)
+            //view.findNavController().navigate(R.id.action_nav_learning_modules_to_submodule)
         }
         binding.l8.setOnClickListener() {view : View ->
             MainActivity.submoduleNumber = 8
-            view.findNavController().navigate(R.id.action_nav_learning_modules_to_submodule)
+            //view.findNavController().navigate(R.id.action_nav_learning_modules_to_submodule)
         }
         binding.l9.setOnClickListener() {view : View ->
             MainActivity.submoduleNumber = 9
-            view.findNavController().navigate(R.id.action_nav_learning_modules_to_submodule)
+            //view.findNavController().navigate(R.id.action_nav_learning_modules_to_submodule)
         }
         binding.l10.setOnClickListener() {view : View ->
             MainActivity.submoduleNumber = 10
-            view.findNavController().navigate(R.id.action_nav_learning_modules_to_submodule)
+            //view.findNavController().navigate(R.id.action_nav_learning_modules_to_submodule)
         }
         binding.l11.setOnClickListener() {view : View ->
             MainActivity.submoduleNumber = 11
-            view.findNavController().navigate(R.id.action_nav_learning_modules_to_submodule)
+            //view.findNavController().navigate(R.id.action_nav_learning_modules_to_submodule)
         }
         binding.l12.setOnClickListener() {view : View ->
             MainActivity.submoduleNumber = 12
-            view.findNavController().navigate(R.id.action_nav_learning_modules_to_submodule)
+            //view.findNavController().navigate(R.id.action_nav_learning_modules_to_submodule)
         }
         binding.l13.setOnClickListener() {view : View ->
             MainActivity.submoduleNumber = 13
-            view.findNavController().navigate(R.id.action_nav_learning_modules_to_submodule)
+            //view.findNavController().navigate(R.id.action_nav_learning_modules_to_submodule)
         }
 
         return root
