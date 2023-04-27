@@ -24,7 +24,7 @@ class LectureSlideThirteenFragment : Fragment(R.layout.frame) {
         binding = FrameBinding.inflate(inflater, container, false)
 
         val textView = binding.textView
-        textView.text = getString(R.string.lectureslide13)
+//        textView.text = getString(R.string.lectureslide13)
         //getString(R.id.)
 
         val pdf = binding.pdfview

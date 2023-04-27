@@ -24,7 +24,7 @@ class LectureSlideOneFragment : Fragment(R.layout.frame) {
         binding = FrameBinding.inflate(inflater, container, false)
 
         val textView = binding.textView
-        textView.text = getString(R.string.lecture1)
+//        textView.text = getString(R.string.lecture1)
         //getString(R.id.)
 
         //These were used before viewBinding

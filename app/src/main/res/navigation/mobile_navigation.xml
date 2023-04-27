@@ -71,55 +71,151 @@
     <fragment
         android:id="@+id/submodule"
         android:name="com.example.mobile_app_project_v1.ui.submodule.SubmoduleFragment"
-        android:label="@string/submodule" />
+        android:label="@string/submodule">
+        <action
+            android:id="@+id/action_slide1"
+            app:destination="@id/lectureSlide1" />
+        <action
+            android:id="@+id/action_slide2"
+            app:destination="@id/lectureSlide2" />
+        <action
+            android:id="@+id/action_slide3"
+            app:destination="@id/lectureSlide3" />
+        <action
+            android:id="@+id/action_slide4"
+            app:destination="@id/lectureSlide4" />
+        <action
+            android:id="@+id/action_slide5"
+            app:destination="@id/lectureSlide5" />
+        <action
+            android:id="@+id/action_slide6"
+            app:destination="@id/lectureSlide6" />
+        <action
+            android:id="@+id/action_slide7"
+            app:destination="@id/lectureSlide7" />
+        <action
+            android:id="@+id/action_slide8"
+            app:destination="@id/lectureSlide8" />
+        <action
+            android:id="@+id/action_slide9"
+            app:destination="@id/lectureSlide9" />
+        <action
+            android:id="@+id/action_slide10"
+            app:destination="@id/lectureSlide10" />
+        <action
+            android:id="@+id/action_slide11"
+            app:destination="@id/lectureSlide11" />
+        <action
+            android:id="@+id/action_slide12"
+            app:destination="@id/lectureSlide12" />
+        <action
+            android:id="@+id/action_slide13"
+            app:destination="@id/lectureSlide13" />
+    </fragment>
+
+
+
+
+
 
     <fragment
+        android:id="@+id/lectureSlide1"
+        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideEightFragment"
+        android:label="LectureSlideEightFragment" />
+    <fragment
+        android:id="@+id/lectureSlide2"
+        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideEightFragment"
+        android:label="LectureSlideEightFragment" />
+    <fragment
+        android:id="@+id/lectureSlide3"
+        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideEightFragment"
+        android:label="LectureSlideEightFragment" />
+    <fragment
+        android:id="@+id/lectureSlide4"
+        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideEightFragment"
+        android:label="LectureSlideEightFragment" />
+    <fragment
+        android:id="@+id/lectureSlide5"
+        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideEightFragment"
+        android:label="LectureSlideEightFragment" />
+    <fragment
+        android:id="@+id/lectureSlide6"
+        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideEightFragment"
+        android:label="LectureSlideEightFragment" />
+    <fragment
+        android:id="@+id/lectureSlide7"
+        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideEightFragment"
+        android:label="LectureSlideEightFragment" />
+    <fragment
+        android:id="@+id/lectureSlide8"
+        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideEightFragment"
+        android:label="LectureSlideEightFragment" />
+    <fragment
+        android:id="@+id/lectureSlide9"
+        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideEightFragment"
+        android:label="LectureSlideEightFragment" />
+    <fragment
+        android:id="@+id/lectureSlide10"
+        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideEightFragment"
+        android:label="LectureSlideEightFragment" />
+    <fragment
+        android:id="@+id/lectureSlide11"
+        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideEightFragment"
+        android:label="LectureSlideEightFragment" />
+    <fragment
+        android:id="@+id/lectureSlide12"
+        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideEightFragment"
+        android:label="LectureSlideEightFragment" />
+    <fragment
+        android:id="@+id/lectureSlide13"
+        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideEightFragment"
+        android:label="LectureSlideEightFragment" />
+
+
+    <!--fragment
         android:id="@+id/slidesHome"
         android:name="com.example.mobile_app_project_v1.lectureSlides.SlidesHome"
         android:label="SlidesHome" >
         <action
             android:id="@+id/action_slidesHome_to_lectureSlideOneFragment"
-            app:destination="@id/lectureSlideOneFragment" />
+            app:destination="@id/lectureSlide1" />
         <action
             android:id="@+id/action_slidesHome_to_lectureSlideTwoFragment"
-            app:destination="@id/lectureSlideTwoFragment" />
+            app:destination="@id/lectureSlide2" />
         <action
             android:id="@+id/action_slidesHome_to_lectureSlideThreeFragment"
-            app:destination="@id/lectureSlideThreeFragment" />
+            app:destination="@id/lectureSlide3" />
         <action
             android:id="@+id/action_slidesHome_to_lectureSlideFourFragment"
-            app:destination="@id/lectureSlideFourFragment" />
+            app:destination="@id/lectureSlide4" />
         <action
             android:id="@+id/action_slidesHome_to_lectureSlideFiveFragment"
-            app:destination="@id/lectureSlideFiveFragment" />
+            app:destination="@id/lectureSlide5" />
         <action
             android:id="@+id/action_slidesHome_to_lectureSlideSixFragment"
-            app:destination="@id/lectureSlideSixFragment" />
+            app:destination="@id/lectureSlide6" />
         <action
             android:id="@+id/action_slidesHome_to_lectureSlideSevenFragment"
-            app:destination="@id/lectureSlideSevenFragment" />
+            app:destination="@id/lectureSlide7" />
         <action
             android:id="@+id/action_slidesHome_to_lectureSlideEightFragment"
-            app:destination="@id/lectureSlideEightFragment" />
-        <action
-            android:id="@+id/action_slidesHome_to_lectureSlideEightFragment2"
-            app:destination="@id/lectureSlideEightFragment" />
+            app:destination="@id/lectureSlide8" />
         <action
             android:id="@+id/action_slidesHome_to_lectureSlideNineFragment"
-            app:destination="@id/lectureSlideNineFragment" />
+            app:destination="@id/lectureSlide9" />
         <action
             android:id="@+id/action_slidesHome_to_lectureSlideTenFragment"
-            app:destination="@id/lectureSlideTenFragment" />
+            app:destination="@id/lectureSlide10" />
         <action
             android:id="@+id/action_slidesHome_to_lectureSlideElevenFragment"
-            app:destination="@id/lectureSlideElevenFragment" />
+            app:destination="@id/lectureSlide11" />
         <action
             android:id="@+id/action_slidesHome_to_lectureSlideTwelveFragment"
-            app:destination="@id/lectureSlideTwelveFragment" />
+            app:destination="@id/lectureSlide12" />
         <action
             android:id="@+id/action_slidesHome_to_lectureSlideThirteenFragment"
-            app:destination="@id/lectureSlideThirteenFragment" />
-    </fragment>
+            app:destination="@id/lectureSlide13" />
+    </fragment!-->
 
 
 

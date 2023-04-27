@@ -24,7 +24,7 @@ class LectureSlideNineFragment : Fragment(R.layout.frame) {
         binding = FrameBinding.inflate(inflater, container, false)
 
         val textView = binding.textView
-        textView.text = getString(R.string.lectureslide9)
+//        textView.text = getString(R.string.lectureslide9)
         //getString(R.id.)
 
         //These were used before viewBinding

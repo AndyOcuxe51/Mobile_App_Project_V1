@@ -24,7 +24,7 @@ class LectureSlideTwelveFragment : Fragment(R.layout.frame) {
         binding = FrameBinding.inflate(inflater, container, false)
 
         val textView = binding.textView
-        textView.text = getString(R.string.lectureslide12)
+//        textView.text = getString(R.string.lectureslide12)
 
         val pdf = binding.pdfview
         pdf.fromAsset("Lesson 12_  Repository pattern and WorkManager.pdf").load()

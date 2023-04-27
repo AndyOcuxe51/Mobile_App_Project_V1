@@ -40,8 +40,35 @@ class SubmoduleFragment : Fragment()  {
         _binding = FragmentSubmoduleBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        binding.slide.setOnClickListener {
-            //TODO open slide base on the chosed submodule
+        binding.slide.setOnClickListener {view : View ->
+            when (MainActivity.submoduleNumber){
+                1 ->
+                    view.findNavController().navigate(R.id.action_slide1)
+                2 ->
+                    view.findNavController().navigate(R.id.action_slide2)
+                3 ->
+                    view.findNavController().navigate(R.id.action_slide3)
+                4 ->
+                    view.findNavController().navigate(R.id.action_slide4)
+                5 ->
+                    view.findNavController().navigate(R.id.action_slide5)
+                6 ->
+                    view.findNavController().navigate(R.id.action_slide6)
+                7 ->
+                    view.findNavController().navigate(R.id.action_slide7)
+                8 ->
+                    view.findNavController().navigate(R.id.action_slide8)
+                9 ->
+                    view.findNavController().navigate(R.id.action_slide9)
+                10 ->
+                    view.findNavController().navigate(R.id.action_slide10)
+                11 ->
+                    view.findNavController().navigate(R.id.action_slide11)
+                12 ->
+                    view.findNavController().navigate(R.id.action_slide12)
+                13 ->
+                    view.findNavController().navigate(R.id.action_slide13)
+            }
         }
         binding.lab.setOnClickListener {
             val i = Intent(Intent.ACTION_VIEW, Uri.parse(labLinks[MainActivity.submoduleNumber]))

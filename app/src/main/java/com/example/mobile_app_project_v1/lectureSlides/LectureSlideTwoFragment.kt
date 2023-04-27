@@ -24,7 +24,7 @@ class LectureSlideTwoFragment : Fragment(R.layout.frame) {
         binding = FrameBinding.inflate(inflater, container, false)
 
         val textView = binding.textView
-        textView.text = getString(R.string.lectureslide2)
+//        textView.text = getString(R.string.lectureslide2)
 
         val pdf = binding.pdfview
         pdf.fromAsset("Lesson 2_ Functions.pdf").load()
