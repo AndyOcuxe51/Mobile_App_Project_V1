@@ -120,56 +120,56 @@
 
     <fragment
         android:id="@+id/lectureSlide1"
-        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideEightFragment"
-        android:label="LectureSlideEightFragment" />
+        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideOneFragment"
+        android:label="LectureSlide 1" />
     <fragment
         android:id="@+id/lectureSlide2"
-        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideEightFragment"
-        android:label="LectureSlideEightFragment" />
+        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideTwoFragment"
+        android:label="LectureSlide 2" />
     <fragment
         android:id="@+id/lectureSlide3"
-        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideEightFragment"
-        android:label="LectureSlideEightFragment" />
+        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideThreeFragment"
+        android:label="LectureSlide 3" />
     <fragment
         android:id="@+id/lectureSlide4"
-        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideEightFragment"
-        android:label="LectureSlideEightFragment" />
+        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideFourFragment"
+        android:label="LectureSlide 4" />
     <fragment
         android:id="@+id/lectureSlide5"
-        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideEightFragment"
-        android:label="LectureSlideEightFragment" />
+        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideFiveFragment"
+        android:label="LectureSlide 5" />
     <fragment
         android:id="@+id/lectureSlide6"
-        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideEightFragment"
-        android:label="LectureSlideEightFragment" />
+        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideSixFragment"
+        android:label="LectureSlide 6" />
     <fragment
         android:id="@+id/lectureSlide7"
-        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideEightFragment"
-        android:label="LectureSlideEightFragment" />
+        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideSevenFragment"
+        android:label="LectureSlide 7" />
     <fragment
         android:id="@+id/lectureSlide8"
         android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideEightFragment"
-        android:label="LectureSlideEightFragment" />
+        android:label="LectureSlide 8" />
     <fragment
         android:id="@+id/lectureSlide9"
-        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideEightFragment"
-        android:label="LectureSlideEightFragment" />
+        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideNineFragment"
+        android:label="LectureSlide 9" />
     <fragment
         android:id="@+id/lectureSlide10"
-        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideEightFragment"
-        android:label="LectureSlideEightFragment" />
+        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideTenFragment"
+        android:label="LectureSlide 10" />
     <fragment
         android:id="@+id/lectureSlide11"
-        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideEightFragment"
-        android:label="LectureSlideEightFragment" />
+        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideElevenFragment"
+        android:label="LectureSlide 11" />
     <fragment
         android:id="@+id/lectureSlide12"
-        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideEightFragment"
-        android:label="LectureSlideEightFragment" />
+        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideTwelveFragment"
+        android:label="LectureSlide 12" />
     <fragment
         android:id="@+id/lectureSlide13"
-        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideEightFragment"
-        android:label="LectureSlideEightFragment" />
+        android:name="com.example.mobile_app_project_v1.lectureSlides.LectureSlideThirteenFragment"
+        android:label="LectureSlide 13" />
 
 
     <!--fragment
