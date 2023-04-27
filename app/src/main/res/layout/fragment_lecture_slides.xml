@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.learning_modules.LearningModulesFragment">
+
+        <Button
+            android:id="@+id/l1"
+            android:layout_width="268dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="52dp"
+            android:text="Introduction: Android Development with Kotlin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/l2"
+            android:layout_width="268dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:text="Lesson 2: Functions"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/l1" />
+
+        <Button
+            android:id="@+id/l3"
+            android:layout_width="268dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:text="Lesson 3: Classes and Objects"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/l2" />
+
+        <Button
+            android:id="@+id/l4"
+            android:layout_width="268dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:text="Lesson 4: Build your first Android App"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/l3" />
+
+        <Button
+            android:id="@+id/l5"
+            android:layout_width="268dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:text="Lesson 5: Layouts"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/l4" />
+
+        <Button
+            android:id="@+id/l6"
+            android:layout_width="268dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:text="Lesson 6: App Navigation"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/l5" />
+
+        <Button
+            android:id="@+id/l7"
+            android:layout_width="268dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:text="Lesson 7: Activity and Fragment Lifecycles"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/l6" />
+
+        <Button
+            android:id="@+id/l8"
+            android:layout_width="268dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:text="Lesson 8: App Architecture (UI Layer)"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/l7" />
+
+        <Button
+            android:id="@+id/l9"
+            android:layout_width="268dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:text="Lesson 9: App Architecture (Persistence)"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/l8" />
+
+        <Button
+            android:id="@+id/l10"
+            android:layout_width="268dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:text="Lesson 10: Advanced RecyclerView Use Cases"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/l9" />
+
+        <Button
+            android:id="@+id/l11"
+            android:layout_width="268dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:text="Lesson 11: Connect to the Internet"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/l10" />
+
+        <Button
+            android:id="@+id/l12"
+            android:layout_width="268dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:text="Lesson 12: Repository Patter and WorkManager"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/l11" />
+
+        <Button
+            android:id="@+id/l13"
+            android:layout_width="268dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:text="Lesson 13: App UI Design"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/l12" />
+
+        <TextView
+            android:layout_width="268dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/l12" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
