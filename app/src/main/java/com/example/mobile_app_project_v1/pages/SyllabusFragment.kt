@@ -60,9 +60,9 @@ class SyllabusFragment : Fragment(R.layout.frame) {
             val byteArray = ByteArray(inputStream.available())
             inputStream.read(byteArray)
 
-            // Save the PDF file to external storage or other desired location
-            // Example: Save to external storage
-            val file = File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS), "CS_4322_2_Sp_23_Syllabus.pdf")
+            // Save the PDF file to app-specific directory on external storage
+            val downloadsDir = requireContext().getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS)
+            val file = File(downloadsDir, "CS_4322_2_Sp_23_Syllabus.pdf")
             val outputStream = FileOutputStream(file)
             outputStream.write(byteArray)
 
